@@ -5,6 +5,7 @@ def prime_checker(number):
     for i in range(2, number):
         if number % i == 0:
             is_prime = False
+            ## IS A PRIME #
     if is_prime:
         print("It's a prime number.")
     else:
